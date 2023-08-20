@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+body{
+    background-color: rgb(228, 230, 219);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-family: Poppins, sans-serif;
+}
+
+.App {
+    margin-top: 70px;
+    background-color: aliceblue;
+    display: block;
+    height: 700px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.Header {
+    height: 70px;
+    width: 100%;
+    background-color: rgb(240, 62, 130);
+    display: flex;
+    justify-content: center;
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 20px;
+}
+
+.header--text {
+    color: aliceblue;
+    font-weight: 300;
+}
+
+.header--image {
+    max-width: 40px;
+    max-height: 40px;
+    display: flex;
+    align-self: center;
+    padding-right: 10px;
+}
+
+.travel {
+    display: grid;
+    margin: 0;
+    grid-template-columns: 170px 300px;
+}
+
+.travel--image {
+    display: flex;
+    width: 120px;
+    height: 170px;
+    border-radius: 10px;
+    margin: 15px 0 0 25px;
+}
+
+.travel--infos {
+    display: flex;
+    margin: 0;
+}
+
+.travel--location {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.travel--gmap {
+    font-weight: 300;
+    font-size: 10px;
+    padding-left: 23px;
+    padding-top: 21px;
+}
+
+.travel--title {
+    margin: 0;
+    display: flex;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.travel--date {
+    margin: 0;
+    display: flex;
+    font-weight: 600;
+    font-size: 10px;
+}
+
+.travel--description {
+    margin-top: 5px;
+    display: flex;
+    font-weight: 300;
+    font-size: 10px;
+}
